@@ -86,7 +86,7 @@
     height: 36px;
     margin: auto;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -101,5 +101,5 @@
 }
 
 .more:focus {
-    outline:  2px solid #37CDAB;
+    outline: 2px solid #37CDAB;
 }
