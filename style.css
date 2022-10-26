@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    list-style-type: none;
+}
+
+.wrapper {
+    padding: 120px 33px 33px 33px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #152A41;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #7C8698;
+    margin-bottom: 93px;
+}
+
+.card_wrapper {
+    display: flex;
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    max-width: 393px;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F4F5F7;
+    border-radius: 16px;
+}
+
+.card_icons {
+    width: 32px;
+    margin-bottom: 31px;
+}
+
+.card:hover {
+    background: #E8ECFF;
+    transition: 1s;
+}
+
+.card_title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #152A41;
+    margin-bottom: 18px;
+}
+
+.card_subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #606C82;
+    margin-bottom: 29px;
+}
+
+.more {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #37CDAB;
+    text-decoration: none;
+    width: 130px;
+    height: 36px;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.more_arrow {
+    width: 20px;
+    margin-left: 8px;
+}
+
+.more:hover {
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.more:focus {
+    outline:  2px solid #37CDAB;
+}
