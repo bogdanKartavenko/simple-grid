@@ -82,9 +82,7 @@
     line-height: 20px;
     color: #37CDAB;
     text-decoration: none;
-    width: 130px;
-    height: 36px;
-    margin: auto;
+    padding: 8px 12px 8px 12px;
     display: flex;
     align-items: center;
     justify-content: center;
